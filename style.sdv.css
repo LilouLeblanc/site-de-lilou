@@ -1,0 +1,92 @@
+/* Style général */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #cac0c7;
+    color: #ffffff;
+    margin: 0;
+    padding: 0;
+}
+
+/* Entête */
+header {
+    background-color: #ea8bce;
+    padding: 20px;
+    text-align: center;
+}
+
+header nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+header nav ul li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+header nav ul li a {
+    color: #063b59;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 10px 20px;
+    border-radius: 25px;
+    transition: all 0.3s ease;
+}
+
+header nav ul li a:hover {
+    background-color: #d96a09;
+    color: #fff;
+}
+
+header nav ul li a:visited {
+    color: #35b6bd;
+}
+
+/* Contenu principal */
+main {
+    padding: 40px;
+}
+
+h1, h2 {
+    color: #faa00b;
+}
+
+h2 {
+    margin-top: 20px;
+}
+
+.image-rounded {
+    border-radius: 25px;
+    max-width: 100%;
+    height: auto;
+}
+
+/* Playlist music controls */
+.music-controls button {
+    padding: 10px;
+    margin: 10px;
+    border-radius: 15px;
+    background-color: #faa00b;
+    color: #ffffff;
+    border: none;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.music-controls button:hover {
+    background-color: #0bf3fa;
+}
+
+/* Pied de page */
+footer {
+    background-color: #ea8bce;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Formulaire de contact */
+.contact {
+    text-align: center;
+}
+
+

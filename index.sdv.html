@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Partage ta Playlist</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Entête -->
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Accueil</a></li>
+                <li><a href="about.html">À propos</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="playlist.html">Playlist</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Contenu principal -->
+    <main>
+        <section class="intro">
+            <h1>Bienvenue sur Partage ta Playlist</h1>
+            <p>Partage ta musique avec le monde ! Écoute des playlists, découvre de nouveaux morceaux, et amuse-toi.</p>
+            <img src="https://www.pexels.com/photo/music-people-singer-performance-2133191/" alt="Musique" class="image-rounded">
+        </section>
+
+        <section class="music-player">
+            <h2>Écoute notre sélection musicale</h2>
+            <audio id="audioPlayer" controls>
+                <source src="https://www.bensound.com/bensound-music/bensound-ukulele.mp3" type="audio/mp3">
+                Votre navigateur ne supporte pas l'élément audio.
+            </audio>
+            <div class="music-controls">
+                <button id="playBtn">Play</button>
+                <button id="pauseBtn">Pause</button>
+                <button id="stopBtn">Stop</button>
+            </div>
+        </section>
+    </main>
+
+    <!-- Pied de page -->
+    <footer>
+        <p>&copy; 2025 Partage ta Playlist</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
