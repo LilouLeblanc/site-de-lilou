@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+    <title> PORTFOLIO DE LILOU </title>
+    <link rel="stylesheet" href="style.css" type="text/css">
+  </head>
+  <body>
+    <div id="entete-de-page">
+      <p>PORTEFOLIO DE LILOU</p>
+    </div>
+    <table id="bloc-menu" border="1">
+      <tbody>
+	  <!--sommaire de mon site-->
+            <tr>
+          <th><a href="index.html">Accueil</a></th>
+          <th><a href="page_1.html">Mes productions écrites </a></th>
+          <th><a href="page_2.html">mes vidéos</th>
+          <th><a href="page_3.html">mes sites préférés</th>
+          <th><a href="page_4.html">mes passions</th>
+          <th><a href="../Site de reve/index.html">Mon site de reve</th>
+        </tr>
+      </tbody>
+    </table>
+    <br>
+    <div id="contenu">
+      <h1>accueil</h1>
+      <img src="avatar.png" alt="Mon_avatar" width="180">
+	  <!--rapide presentation-->
+      <h2> Je présente mon site et son contenu</h2>
+      <p> Je suis une lyceene J'aime la musique<br>
+        Je partage avec vous sur ce site mes productions realise durant cette année<br>
+        mon point de vue perso sur divers sujet</p>
+      <br>je vous propose d'écouter "Margaret"de Lana Del Rey feat Bleachers.
+      
+<audio id="zic" src="Margaret.mp3"></audio>
+
+<!--on nomme les boutons et leur statut -->
+<div>
+<a href="javascript:void(0)" onclick="changeState(0)" class="bouton">PLAY</a>
+<a href="javascript:void(0)" onclick="changeState(1)" class="bouton">PAUSE</a>
+<a href="javascript:void(0)" onclick="changeState(2)" class="bouton active">STOP</a>
+</div>
+<!--codage pour la musique-->
+<script>
+function changeStates(x){
+let boutons=document.querySelectorAll(".bouton");
+let audio=document.querySelector("#zic");
+for(let i=0; i<boutons. lengh; i++){
+boutons(i).classList.remove("active");
+}
+boutons(x).classList.add(active");
+if(x ==0){
+audio.play();
+}
+
+
+
+</script><br>
+      </p>
+      <br>
+      <br>
+      <hr>
+      <div id="infos">
+	  <!--les problemes que j'ai rencontré-->
+        <h3>j'ai eu un probleme avec mon code style.css je mets les codes avec le hashtag pourtant acun changement pour les couleur du site et des écritures alors que sur le pc du lycee tous marché bien, tout comme ma video "3 minutes pour convaincre" qui ne s'affiche pas égualement et pour finir j'ai rencontré un probleme avec mon avatar alors que d'apres j'ai fais corectement. </h3>
+        <ul>
+		<!-- je depose les liens interne et externe -->
+          <li><a href="https://www.youtube.com/@TravisScottVEVO">chainne youtube de Travis scott</a>
+          <li><a href=https://open.spotify.com/intl-fr>spotify </a>
+        </ul>
+      </div>
+    </div>
+    <br>
+    <div id="pied-de-page">
+      <p> Projet SNT - Dernière mise à jour le : 06/01/2025 <br>
+        Les textes et images utilisés n'engagent que son auteur : Lilou Leblanc </p>
+    </div>
+    <br>
+  </body>
+</html>

@@ -1,0 +1,47 @@
+body, div {
+	margin: 0;
+	padding: 0;
+}
+body {
+	background-color: ;#F5B4EA
+	font-family: Arial, sans-serif;
+	font-size: 16px;
+}
+img { 
+	float: left; 
+	margin-right: 20px;
+	border-radius: 15px;
+}
+th { width: 200px;}
+ul { list-style-type: square; }
+
+#entete-de-page {
+	padding: 5px;
+	height: 100px;
+	background-color: lightgrey;
+	font-size: 32px;
+	font-weight: bold;
+	font-variant: small-caps;
+	text-align: center;
+}
+#bloc-menu {
+	height: 36px;
+	background-color: steelblue;
+	float: center;
+	color: white;
+}
+#contenu {
+	padding: 10px;
+	background-color:;#F5B4EA
+}
+#infos {
+	color: darkblue;
+	font-style: italic;
+}
+#pied-de-page {
+	padding: 5px;
+	background-color: ;#F5B4EA
+	font-size: 11px;
+}
+
+	
